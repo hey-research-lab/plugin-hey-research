@@ -1,0 +1,23 @@
+{
+  "request": {
+    "path": "/api/projects/hey-plugin-no-such-project/timeline",
+    "params": {
+      "lens": "build",
+      "limit": 8
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "content-type": "application/json",
+      "x-request-id": "cb35f8e3-4420-4b03-8a67-78fbae9142e9",
+      "x-hey-api-version": "1"
+    },
+    "body": {
+      "error": "not_found",
+      "message": "No published project has the slug \"hey-plugin-no-such-project\".",
+      "retryable": false,
+      "requestId": "cb35f8e3-4420-4b03-8a67-78fbae9142e9"
+    }
+  }
+}

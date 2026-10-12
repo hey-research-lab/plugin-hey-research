@@ -1,0 +1,173 @@
+{
+  "request": {
+    "path": "/api/chain",
+    "params": {
+      "days": 7
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "content-type": "application/json",
+      "x-request-id": "8e2303d7-4734-4e08-b854-be895cb980e5",
+      "x-hey-api-version": "1"
+    },
+    "body": {
+      "chainId": 4663,
+      "days": [
+        {
+          "day": "2026-10-06",
+          "basis": {
+            "hey": "knowledge",
+            "chain": "observed"
+          },
+          "dexTrades": 2480211,
+          "dexVolumeUsd": 1071700728.400582,
+          "tokensTraded": 22612,
+          "poolsTraded": 11933,
+          "transactions": 5301935,
+          "transfers": 12599627,
+          "launches": 11475,
+          "launchesFirstRead": 0,
+          "projectsPublished": 98,
+          "ships": 34,
+          "buildersShipping": 28,
+          "buildersVerified": 22,
+          "launchesBackfill": false,
+          "chainObservedAt": "2026-10-08T18:04:16.522Z"
+        },
+        {
+          "day": "2026-10-07",
+          "basis": {
+            "hey": "knowledge",
+            "chain": "observed"
+          },
+          "dexTrades": 2665591,
+          "dexVolumeUsd": 3543477035.819161,
+          "tokensTraded": 20124,
+          "poolsTraded": 11126,
+          "transactions": 5578095,
+          "transfers": 13084117,
+          "launches": 9993,
+          "launchesFirstRead": 0,
+          "projectsPublished": 81,
+          "ships": 18,
+          "buildersShipping": 16,
+          "buildersVerified": 13,
+          "launchesBackfill": false,
+          "chainObservedAt": "2026-10-09T18:02:38.457Z"
+        },
+        {
+          "day": "2026-10-08",
+          "basis": {
+            "hey": "knowledge",
+            "chain": "observed"
+          },
+          "dexTrades": 2878867,
+          "dexVolumeUsd": 2665015506.319893,
+          "tokensTraded": 17832,
+          "poolsTraded": 8588,
+          "transactions": 6141913,
+          "transfers": 13847307,
+          "launches": 9990,
+          "launchesFirstRead": 0,
+          "projectsPublished": 74,
+          "ships": 36,
+          "buildersShipping": 33,
+          "buildersVerified": 10,
+          "launchesBackfill": false,
+          "chainObservedAt": "2026-10-10T18:12:31.218Z"
+        },
+        {
+          "day": "2026-10-09",
+          "basis": {
+            "hey": "knowledge",
+            "chain": "observed"
+          },
+          "dexTrades": 2336364,
+          "dexVolumeUsd": 1097258207.419784,
+          "tokensTraded": 16913,
+          "poolsTraded": 8403,
+          "transactions": 5154196,
+          "transfers": 11723599,
+          "launches": 9228,
+          "launchesFirstRead": 0,
+          "projectsPublished": 63,
+          "ships": 51,
+          "buildersShipping": 38,
+          "buildersVerified": 15,
+          "launchesBackfill": false,
+          "chainObservedAt": "2026-10-11T18:03:16.951Z"
+        },
+        {
+          "day": "2026-10-10",
+          "basis": {
+            "hey": "knowledge",
+            "chain": "observed"
+          },
+          "dexTrades": 1893257,
+          "dexVolumeUsd": 715991437.850234,
+          "tokensTraded": 17413,
+          "poolsTraded": 9178,
+          "transactions": 4369453,
+          "transfers": 10048518,
+          "launches": 56218,
+          "launchesFirstRead": 0,
+          "projectsPublished": 72,
+          "ships": 39,
+          "buildersShipping": 28,
+          "buildersVerified": 19,
+          "launchesBackfill": false,
+          "chainObservedAt": "2026-10-12T18:04:53.114Z"
+        },
+        {
+          "day": "2026-10-11",
+          "basis": {
+            "hey": "knowledge",
+            "chain": "observed"
+          },
+          "dexTrades": 1822101,
+          "dexVolumeUsd": 698986576.426531,
+          "tokensTraded": 15421,
+          "poolsTraded": 8621,
+          "transactions": 4210575,
+          "transfers": 9127125,
+          "launches": 27810,
+          "launchesFirstRead": 0,
+          "projectsPublished": 53,
+          "ships": 60,
+          "buildersShipping": 51,
+          "buildersVerified": 17,
+          "launchesBackfill": false,
+          "chainObservedAt": "2026-10-12T18:04:53.114Z"
+        },
+        {
+          "day": "2026-10-12",
+          "basis": {
+            "hey": "knowledge",
+            "chain": "observed"
+          },
+          "dexTrades": 1860948,
+          "dexVolumeUsd": 948158775.916687,
+          "tokensTraded": 13385,
+          "poolsTraded": 7160,
+          "transactions": 4308781,
+          "transfers": 8926781,
+          "launches": 11861,
+          "launchesFirstRead": 0,
+          "projectsPublished": 41,
+          "ships": 43,
+          "buildersShipping": 35,
+          "buildersVerified": 4,
+          "launchesBackfill": false,
+          "chainObservedAt": "2026-10-12T18:04:53.114Z"
+        }
+      ],
+      "today": "2026-10-12",
+      "lastFullDay": "2026-10-11",
+      "volumeNote": "dexVolumeUsd counts trades against USDG, WETH and ETH only; unpriced pairs are left out rather than guessed. The day in progress is partial. A day more than 10× the median of its previous 14 is withheld (dexVolumeWithheld), never shown as measured.",
+      "launchesNote": "launches counts tokens on the day HEY first recorded them, not the day they launched. launchesFirstRead is how many came from a discovery source in the first 24 hours HEY read it — a first read takes in the tokens that source had launched before — and launchesBackfill marks a day where those are at least half: a backfill, not that day's launches.",
+      "disclaimer": "Public, source-backed activity HEY recorded. Still Building means verified activity through a tracked market drawdown — it is not a prediction, not a ranking by price, and not investment advice. Few projects meet Still Building or Under the Radar at any time; both are strict by design, and list responses carry the counts."
+    }
+  }
+}

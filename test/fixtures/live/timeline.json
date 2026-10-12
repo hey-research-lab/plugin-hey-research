@@ -1,0 +1,304 @@
+{
+  "request": {
+    "path": "/api/projects/agentos/timeline",
+    "params": {
+      "lens": "build",
+      "limit": 8
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "content-type": "application/json",
+      "x-request-id": "9ecfebd9-9aea-457a-90e6-75f8b635fcb1",
+      "x-hey-api-version": "1"
+    },
+    "body": {
+      "project": {
+        "slug": "agentos",
+        "name": "AgentOS",
+        "url": "https://heyresearch.xyz/project/agentos"
+      },
+      "lens": "build",
+      "items": [
+        {
+          "id": "ship:8e257df2-53a5-46c9-bf22-a11e46cc15e8",
+          "kind": "code",
+          "at": "2026-10-12T06:12:16.000Z",
+          "precision": "WEEK",
+          "title": "Code changes, week of 2026-10-12 – 2026-10-18",
+          "summary": "8 active days in use-agent-os/agent-os since 2026-10-04; only the newest 100 commits were read.",
+          "recordedAt": "2026-10-12T05:11:56.142Z",
+          "eventType": "CODE_ACTIVITY",
+          "verification": "SOURCE_LINKED",
+          "countsAsBuilding": true,
+          "codeSubstance": {
+            "verdict": "SUBSTANTIVE",
+            "classifierVersion": "commit-substance-v3",
+            "countsAsBuilding": true,
+            "commitsListed": 4,
+            "commitsRead": 1,
+            "changedCode": 1,
+            "documentationOrMaintenance": 0,
+            "substanceUnknown": 0,
+            "notRead": 3,
+            "files": {
+              "source": 2,
+              "test": 2,
+              "docs": 1,
+              "readme": 0,
+              "dependency": 0,
+              "config": 0,
+              "ci": 0,
+              "generated": 0,
+              "asset": 0,
+              "whitespace": 0,
+              "rename": 0,
+              "data": 0,
+              "unknown": 0
+            },
+            "weekFullyListed": true,
+            "automatedCommits": 0,
+            "sampled": false,
+            "basis": null,
+            "summary": "This week HEY looked inside 1 of 4 commits to see what changed: 1 changed code. One code change is enough for the week to count, so HEY stopped there."
+          },
+          "source": "https://github.com/use-agent-os/agent-os",
+          "marketAround": {
+            "before": {
+              "day": "2026-10-11",
+              "priceUsd": 0.000005271,
+              "marketCapUsd": 527149,
+              "marketCapKind": "fdv"
+            }
+          }
+        },
+        {
+          "id": "ship:6b248399-0b62-4aa3-8671-1c3b4628097c",
+          "kind": "release",
+          "at": "2026-10-11T13:24:23.000Z",
+          "precision": "EXACT",
+          "title": "AgentOS 2026.10.11",
+          "summary": "A small desktop release on top of [2026.10.9.post1](https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.9.post1). It gives the Bankr LLM Gateway its proper logo in the Mac app. 2026.10.11 carries every 2026.10.9 and 2026.10.9.post1 change. ## AgentOS for Mac Signed and notarized builds are attached: `AgentOS-2026.1011.0-arm64.dmg` for Apple silicon and `AgentOS-2026.1011.0.dmg` for Intel. An installed app offers the update itself. A Windows portable build (`AgentOS-2026.10.11-windows-x64-py312-recommended-portable.zip`) is attached too. ## Install or upgrade ```bash uv tool install",
+          "recordedAt": "2026-10-11T14:07:11.943Z",
+          "discoveryLagHours": 0.7,
+          "eventType": "GITHUB_RELEASE",
+          "verification": "PUBLICLY_VERIFIED",
+          "countsAsBuilding": true,
+          "source": "https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.11",
+          "marketAround": {
+            "before": {
+              "day": "2026-10-10",
+              "priceUsd": 0.000005179,
+              "marketCapUsd": 517950,
+              "marketCapKind": "fdv"
+            }
+          }
+        },
+        {
+          "id": "ship:31ecea7f-01b7-4d7d-ae89-a41b20dc7b92",
+          "kind": "code",
+          "at": "2026-10-11T13:20:51.000Z",
+          "precision": "WEEK",
+          "title": "Code changes, week of 2026-10-05 – 2026-10-11",
+          "summary": "7 active days in use-agent-os/agent-os since 2026-10-04; only the newest 100 commits were read.",
+          "recordedAt": "2026-10-07T19:37:40.027Z",
+          "eventType": "CODE_ACTIVITY",
+          "verification": "SOURCE_LINKED",
+          "countsAsBuilding": true,
+          "codeSubstance": {
+            "verdict": "SUBSTANTIVE",
+            "classifierVersion": "commit-substance-v3",
+            "countsAsBuilding": true,
+            "commitsListed": 47,
+            "commitsRead": 5,
+            "changedCode": 3,
+            "documentationOrMaintenance": 2,
+            "substanceUnknown": 0,
+            "notRead": 42,
+            "files": {
+              "source": 4,
+              "test": 5,
+              "docs": 3,
+              "readme": 0,
+              "dependency": 0,
+              "config": 0,
+              "ci": 0,
+              "generated": 0,
+              "asset": 0,
+              "whitespace": 0,
+              "rename": 0,
+              "data": 0,
+              "unknown": 0
+            },
+            "weekFullyListed": true,
+            "automatedCommits": 0,
+            "sampled": true,
+            "basis": null,
+            "summary": "This week HEY looked inside 5 of 47 commits to see what changed: 3 changed code, 2 documentation or maintenance only. In a burst week, enough of a sample has to change code for the week to count."
+          },
+          "source": "https://github.com/use-agent-os/agent-os",
+          "marketAround": {
+            "before": {
+              "day": "2026-10-10",
+              "priceUsd": 0.000005179,
+              "marketCapUsd": 517950,
+              "marketCapKind": "fdv"
+            }
+          }
+        },
+        {
+          "id": "ship:33192dd2-324c-43be-a09a-972c2b64fb85",
+          "kind": "release",
+          "at": "2026-10-09T06:22:30.000Z",
+          "precision": "EXACT",
+          "title": "AgentOS 2026.10.9.post1",
+          "summary": "Same-day desktop follow-up to [2026.10.9](https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.9). It fixes how the Mac app draws question and plan cards. 2026.10.9.post1 carries every 2026.10.9 change. See the [2026.10.9 notes](https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.9) for the full list. ## AgentOS for Mac Signed and notarized builds are attached: `AgentOS-2026.1009.1-arm64.dmg` for Apple silicon and `AgentOS-2026.1009.1.dmg` for Intel. An installed app offers the update itself. A Windows portable build (`AgentOS-2026.10.9.post1-windows-x64-py312-recommended-",
+          "recordedAt": "2026-10-09T07:18:31.271Z",
+          "discoveryLagHours": 0.9,
+          "eventType": "GITHUB_RELEASE",
+          "verification": "PUBLICLY_VERIFIED",
+          "countsAsBuilding": true,
+          "source": "https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.9.post1",
+          "marketAround": {
+            "before": {
+              "day": "2026-10-08",
+              "priceUsd": 0.000005055,
+              "marketCapUsd": 505551,
+              "marketCapKind": "fdv"
+            },
+            "after": {
+              "day": "2026-10-12",
+              "priceUsd": 0.000005044,
+              "marketCapUsd": 504480,
+              "marketCapKind": "fdv"
+            }
+          }
+        },
+        {
+          "id": "ship:74c59f0e-6b30-446f-9058-757632b3c056",
+          "kind": "release",
+          "at": "2026-10-09T03:43:12.000Z",
+          "precision": "EXACT",
+          "title": "AgentOS 2026.10.9",
+          "recordedAt": "2026-10-09T03:49:41.463Z",
+          "discoveryLagHours": 0.1,
+          "eventType": "GITHUB_RELEASE",
+          "verification": "PUBLICLY_VERIFIED",
+          "countsAsBuilding": false,
+          "source": "https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.9",
+          "marketAround": {
+            "before": {
+              "day": "2026-10-08",
+              "priceUsd": 0.000005055,
+              "marketCapUsd": 505551,
+              "marketCapKind": "fdv"
+            },
+            "after": {
+              "day": "2026-10-12",
+              "priceUsd": 0.000005044,
+              "marketCapUsd": 504480,
+              "marketCapKind": "fdv"
+            }
+          }
+        },
+        {
+          "id": "ship:a5979090-b594-43d2-a2ba-f46870f1fe72",
+          "kind": "release",
+          "at": "2026-10-06T13:53:11.000Z",
+          "precision": "EXACT",
+          "title": "AgentOS 2026.10.6",
+          "summary": "A trading release: 4 PRs merged since v2026.10.4. The desk learns to list every pool a Robinhood Stock Token trades in — including the memecoins launched *priced in NVDA* — and can finally swap Stock Tokens; brackets and price triggers let the engine watch and fire exits by itself; and the Mac app gains a Settings › Environment pane. ## AgentOS for Mac Signed and notarized builds are attached: `AgentOS-2026.1006.0-arm64.dmg` for Apple silicon and `AgentOS-2026.1006.0.dmg` for Intel. An installed app offers the update itself. - **Markets tab.** The BOOK beside the desk chat and the full desk ge",
+          "recordedAt": "2026-10-07T19:37:39.815Z",
+          "discoveryLagHours": 29.7,
+          "eventType": "GITHUB_RELEASE",
+          "verification": "PUBLICLY_VERIFIED",
+          "countsAsBuilding": true,
+          "source": "https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.6",
+          "marketAround": {
+            "before": {
+              "day": "2026-10-05",
+              "priceUsd": 0.000005627,
+              "marketCapUsd": 562762,
+              "marketCapKind": "fdv"
+            },
+            "after": {
+              "day": "2026-10-09",
+              "priceUsd": 0.000005137,
+              "marketCapUsd": 513737,
+              "marketCapKind": "fdv"
+            }
+          }
+        },
+        {
+          "id": "ship:3393733e-1008-44d8-b8f5-413dda563f46",
+          "kind": "release",
+          "at": "2026-10-04T11:31:52.000Z",
+          "precision": "EXACT",
+          "title": "AgentOS 2026.10.4",
+          "summary": "A fixes release: 6 PRs merged since v2026.10.3. A chat send that intermittently failed with \"session_key conflict\", a browser tool that could not find `agent-browser` when the gateway was started by the desktop app or a service manager, two redaction gaps, and workspace bootstrap files written by PowerShell. ## AgentOS for Mac Signed and notarized builds are attached: `AgentOS-2026.1004.0-arm64.dmg` for Apple silicon and `AgentOS-2026.1004.0.dmg` for Intel. An installed app offers the update itself. ## Chat - **No more \"session_key conflict\" on the first send.** In the desktop app and the web",
+          "recordedAt": "2026-10-07T19:37:39.840Z",
+          "discoveryLagHours": 80.1,
+          "eventType": "GITHUB_RELEASE",
+          "verification": "PUBLICLY_VERIFIED",
+          "countsAsBuilding": true,
+          "source": "https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.4",
+          "marketAround": {
+            "before": {
+              "day": "2026-10-03",
+              "priceUsd": 0.000005372,
+              "marketCapUsd": 537285,
+              "marketCapKind": "fdv"
+            },
+            "after": {
+              "day": "2026-10-07",
+              "priceUsd": 0.000005295,
+              "marketCapUsd": 529595,
+              "marketCapKind": "fdv"
+            }
+          }
+        },
+        {
+          "id": "ship:a723cd1b-e5f6-4294-a734-19b025d6a1a6",
+          "kind": "release",
+          "at": "2026-10-03T14:15:25.000Z",
+          "precision": "EXACT",
+          "title": "AgentOS 2026.10.3",
+          "summary": "A desktop-focused release: 19 PRs merged since v2026.10.1.post1. The Mac app gains three features only a native shell can offer — a menu bar status item, a Touch ID gate in front of money-moving clicks, and Quick Ask, a system-wide hotkey — alongside a skills install policy and a batch of contributor fixes across tools, channels and redaction. ## AgentOS for Mac Signed and notarized builds are attached: `AgentOS-2026.1003.0-arm64.dmg` for Apple silicon and `AgentOS-2026.1003.0.dmg` for Intel. An installed app offers the update itself. - **Menu bar status item.** The app keeps the gateway, DCA",
+          "recordedAt": "2026-10-07T19:37:39.857Z",
+          "discoveryLagHours": 101.4,
+          "eventType": "GITHUB_RELEASE",
+          "verification": "PUBLICLY_VERIFIED",
+          "countsAsBuilding": true,
+          "source": "https://github.com/use-agent-os/agent-os/releases/tag/v2026.10.3",
+          "marketAround": {
+            "before": {
+              "day": "2026-10-02",
+              "priceUsd": 0.000005317,
+              "marketCapUsd": 531700,
+              "marketCapKind": "fdv"
+            },
+            "after": {
+              "day": "2026-10-06",
+              "priceUsd": 0.000005605,
+              "marketCapUsd": 560507,
+              "marketCapKind": "fdv"
+            }
+          }
+        }
+      ],
+      "totals": {
+        "ships": 59,
+        "contractSource": 0,
+        "locks": 0,
+        "resumed": 0,
+        "marketIntegrity": 0,
+        "verification": 0
+      },
+      "total": 59,
+      "truncated": true,
+      "nextCursor": "dDEuMjAyNi0xMC0wM1QxNDoxNToyNS4wMDBafHNoaXA6YTcyM2NkMWItZTVmNi00Mjk0LWE3MzQtMTliMDI1ZDZhMWE2",
+      "disclaimer": "Public, source-backed activity HEY recorded. Still Building means verified activity through a tracked market drawdown — it is not a prediction, not a ranking by price, and not investment advice. Few projects meet Still Building or Under the Radar at any time; both are strict by design, and list responses carry the counts."
+    }
+  }
+}

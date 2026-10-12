@@ -1,0 +1,23 @@
+name: Bug
+description: Something in this repository does not do what its README says.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The message the agent received, the action it chose, what you expected and what it answered.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The plugin version, your @elizaos/core version and your Node.js version.
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Never paste an API key, a private key or a token.
