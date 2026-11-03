@@ -33,7 +33,7 @@ The package is not on npm or in the ElizaOS registry yet. Build it from this rep
 packed tarball:
 
 ```sh
-git clone https://github.com/hey-research-lab/plugin-hey-research.git
+git clone https://github.com/hey-research-lab/plugin-hey-research
 cd plugin-hey-research
 corepack enable && pnpm install --frozen-lockfile && pnpm build
 npm pack                       # writes hey-research-lab-plugin-hey-research-0.1.0.tgz
