@@ -29,11 +29,22 @@ request is made.
 
 ## Install
 
+The package is not on npm or in the ElizaOS registry yet. Build it from this repository and install the
+packed tarball:
+
 ```sh
-npm install @hey-research-lab/plugin-hey-research
-# or: bun add @hey-research-lab/plugin-hey-research
-# or, once it is in the ElizaOS registry: elizaos plugins add @hey-research-lab/plugin-hey-research
+git clone https://github.com/hey-research-lab/plugin-hey-research.git
+cd plugin-hey-research
+corepack enable && pnpm install --frozen-lockfile && pnpm build
+npm pack                       # writes hey-research-lab-plugin-hey-research-0.1.0.tgz
+
+# then, in your agent's project:
+npm install /path/to/hey-research-lab-plugin-hey-research-0.1.0.tgz
+# or: bun add /path/to/hey-research-lab-plugin-hey-research-0.1.0.tgz
 ```
+
+Once it is published, `npm install @hey-research-lab/plugin-hey-research` (or, from the ElizaOS registry,
+`elizaos plugins add @hey-research-lab/plugin-hey-research`) will do the same.
 
 `@elizaos/core` 1.7 or later is a peer dependency (your agent already has it). Node.js 22+.
 

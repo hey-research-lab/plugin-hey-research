@@ -4,7 +4,13 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/).
 
-## 0.1.0 — 2026-10-13
+## Unreleased
+
+- README: the package is not on npm or in the ElizaOS registry yet, so Install says how to build it from
+  this repository and install the packed tarball.
+- Development: vitest 4.1.12.
+
+## 0.1.0 — 2026-10-13 (not on npm)
 
 First release, built against `@elizaos/core` 1.7.2 and `@hey-research-lab/sdk` 0.2.0.
 
