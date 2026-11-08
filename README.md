@@ -5,10 +5,10 @@ building, what it shipped and what HEY does not know — by name, `$TICKER` or c
 evidence links in every answer.
 
 [![CI](https://github.com/hey-research-lab/plugin-hey-research/actions/workflows/ci.yml/badge.svg)](https://github.com/hey-research-lab/plugin-hey-research/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Node >= 22](https://img.shields.io/badge/node-%3E%3D22-informational.svg)](package.json)
-[![ElizaOS 1.x](https://img.shields.io/badge/ElizaOS-1.x-informational.svg)](https://docs.elizaos.ai)
-[![Robinhood Chain 4663](https://img.shields.io/badge/Robinhood%20Chain-4663-black.svg)](https://heyresearch.xyz)
+[![License: MIT](assets/badges/license-mit.svg)](LICENSE)
+[![Node >= 22](assets/badges/node-22.svg)](package.json)
+[![ElizaOS 1.x](assets/badges/elizaos-1-x.svg)](https://docs.elizaos.ai)
+[![Robinhood Chain 4663](assets/badges/robinhood-chain-4663.svg)](https://heyresearch.xyz)
 
 ![HEY Research plugin for ElizaOS](images/banner.jpg)
 
