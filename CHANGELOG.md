@@ -6,11 +6,11 @@ All notable changes to this project are documented here. The format follows
 
 ## Unreleased
 
-- README: the package is not on npm or in the ElizaOS registry yet, so Install says how to build it from
-  this repository and install the packed tarball.
+- README: Install is `npm install @hey-research-lab/plugin-hey-research`; 0.1.0 has been on npm since
+  2026-10-13.
 - Development: vitest 4.1.12.
 
-## 0.1.0 — 2026-10-13 (not on npm)
+## 0.1.0 — 2026-10-13
 
 First release, built against `@elizaos/core` 1.7.2 and `@hey-research-lab/sdk` 0.2.0.
 
