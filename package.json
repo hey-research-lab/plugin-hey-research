@@ -100,7 +100,8 @@
   "pnpm": {
     "overrides": {
       "esbuild": "^0.28.1",
-      "pdfjs-dist": "^6.2.108"
+      "pdfjs-dist": "^6.2.108",
+      "minimatch@>=7.0.0 <11.0.1": "^11.0.1"
     }
   }
 }
