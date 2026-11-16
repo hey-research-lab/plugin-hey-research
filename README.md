@@ -147,6 +147,8 @@ See [SECURITY.md](SECURITY.md). Network: HTTPS GET requests to `https://heyresea
 the `HEY_API_URL` you set), a 10-second limit and a 1 MiB cap per answer. It reads and writes no
 files and keeps no state beyond an in-memory cache of address lookups.
 
+HEY Research Lab also reviews other projects' code and reports what it finds privately first: [security credits](https://github.com/hey-research-lab#security-credits).
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Tests run offline over recorded fixtures (`pnpm test`); run
