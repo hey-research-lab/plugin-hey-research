@@ -22,7 +22,7 @@ instead of guessing — and say plainly what is not known.
 
 ## Why Robinhood Chain only
 
-HEY researches one chain: Robinhood Chain, chain id `4663` (`eip155:4663`). Every action is
+HEY's API and this plugin answer for one chain: Robinhood Chain, chain id `4663` (`eip155:4663`). Every action is
 implicitly on it. A host option `chainId` other than `4663`, or a message that asks about another
 chain ("chain id 8453", `eip155:1`, "on Ethereum"), is answered with `unsupported_chain` and no
 request is made.
