@@ -6,6 +6,11 @@ All notable changes to this project are documented here. The format follows
 
 ## Unreleased
 
+## 0.1.1 — 2026-11-24
+
+- Security: dependency updates (the development install no longer pulls `crypto-browserify` and
+  `elliptic`, GHSA-848j-6mx2-7j84; `@elizaos/core` bundles its own copy, so a pnpm override drops
+  the unused package). The published package's runtime dependencies are unchanged.
 - README: Install is `npm install @hey-research-lab/plugin-hey-research`; 0.1.0 has been on npm since
   2026-10-13.
 - Development: vitest 4.1.12.

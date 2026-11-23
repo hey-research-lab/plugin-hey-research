@@ -1,6 +1,6 @@
 {
   "name": "@hey-research-lab/plugin-hey-research",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ElizaOS plugin for HEY Research Lab: lets an agent check whether a Robinhood Chain project is still building, what it shipped and what HEY does not know, by name, ticker or contract, with evidence links. Read-only, no key required.",
   "license": "MIT",
   "author": "HEY Research Lab",
@@ -101,7 +101,8 @@
     "overrides": {
       "esbuild": "^0.28.1",
       "pdfjs-dist": "^6.2.108",
-      "minimatch@>=7.0.0 <11.0.1": "^11.0.1"
+      "minimatch@>=7.0.0 <11.0.1": "^11.0.1",
+      "crypto-browserify": "-"
     }
   }
 }

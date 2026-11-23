@@ -491,8 +491,8 @@ describe('settings', () => {
     await run(pluginWith(['chain'], calls), ACTION_NAMES.chain, 'overview');
     const headers = new Headers(calls[0]?.init?.headers);
     expect(headers.get('authorization')).toBeNull();
-    expect(headers.get('x-hey-integration')).toBe('plugin-hey-research/0.1.0');
-    expect(headers.get('user-agent')).toContain('plugin-hey-research/0.1.0');
+    expect(headers.get('x-hey-integration')).toBe('plugin-hey-research/0.1.1');
+    expect(headers.get('user-agent')).toContain('plugin-hey-research/0.1.1');
   });
 
   it('sends HEY_API_KEY as a bearer token and never prints it', async () => {
